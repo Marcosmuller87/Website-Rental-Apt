@@ -1,0 +1,36 @@
+.serviços-container {
+  background: rgb(11, 107, 108);
+  background: linear-gradient(
+    0deg,
+    rgb(17, 136, 138) 100%,
+    rgb(18, 16, 126) 0%
+  );
+  align-items: center;
+  margin: 0 auto;
+  padding: 4%;
+  justify-content: center;
+  display: flex;
+  flex-flow: column;
+}
+
+.serviços-wrapper {
+  margin-bottom: 6%;
+  align-items: center;
+}
+
+.serviços-list {
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.serviços-title {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.serviços-item {
+  color: rgb(205, 212, 236);
+}

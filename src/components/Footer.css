@@ -1,0 +1,22 @@
+.footer-container {
+  background: rgb(18, 16, 126);
+  background: linear-gradient(
+    0deg,
+    rgba(18, 16, 126, 1) 60%,
+    rgba(17, 136, 138, 1) 100%
+  );
+  padding: 1rem 0 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-adress {
+  margin-bottom: 2%;
+  color: #fff;
+}
+
+.footer-phone {
+  color: #fff;
+}

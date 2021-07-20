@@ -5,13 +5,13 @@ import "./Cards.css";
 function Cards() {
   return (
     <div className="cards">
-      <h1>O apartamento fica no edificio Forte da Praia</h1>
+      <h1>O apartamento ideal pra suas Ferias</h1>
       <div className="cards-container">
         <div className="cards-wrapper">
           <ul className="cards-items">
             <CardItem
               src="/images/depto/piezap1.jpeg"
-              text="Apartamento con capacidade para 6 pessosas"
+              text="Apartamento con capacidade para 6 pessoas"
               label="Apartamento"
               path="/Apartamento"
             />

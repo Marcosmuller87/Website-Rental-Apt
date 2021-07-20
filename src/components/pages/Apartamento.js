@@ -1,8 +1,13 @@
 import React from "react";
-import "../../App.css";
+import AptSlider from "./AptSlider";
+import { AptSliderData } from "./AptSliderData";
 
-function Apartamento() {
-  return <h1 className="apartamento">Apartamento</h1>;
-}
+const Apartamento = () => {
+  return (
+    <>
+      <AptSlider slides={AptSliderData} />
+    </>
+  );
+};
 
 export default Apartamento;
