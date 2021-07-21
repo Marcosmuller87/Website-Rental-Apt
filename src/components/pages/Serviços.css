@@ -34,3 +34,48 @@
 .serviços-item {
   color: rgb(205, 212, 236);
 }
+
+.foot-wrapper {
+  margin-top: 6%;
+  justify-content: center;
+  align-items: center;
+  background: rgb(9, 33, 83);
+  padding: 2%;
+  border-radius: 10px;
+  padding-bottom: 0.8%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .serviços-wrapper {
+    max-width: 250px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .serviços-wrapper {
+    max-width: 350px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .serviços-wrapper {
+    max-width: 450px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .serviços-wrapper {
+    max-width: 550px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .serviços-wrapper {
+    max-width: 650px;
+  }
+}
