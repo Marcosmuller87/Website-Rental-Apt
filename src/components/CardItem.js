@@ -5,6 +5,7 @@ const CardItem = (props) => {
   return (
     <>
       <li className="cards-item">
+        {/* Se utilizan las props almacenadas en Cards */}
         <Link className="cards-item-link" to={props.path}>
           <figure className="cards-item-wrap" data-category={props.label}>
             <img src={props.src} alt="Images" className="cards-item-img" />

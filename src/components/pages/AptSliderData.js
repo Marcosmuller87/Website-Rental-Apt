@@ -30,6 +30,12 @@ export const AptSliderData = [
     image: "/images/depto/cocina4.jpeg",
   },
   {
+    image: "/images/depto/cocina5.jpeg",
+  },
+  {
+    image: "/images/depto/cocina6.jpeg",
+  },
+  {
     image: "/images/depto/sala1.jpeg",
   },
   {
@@ -40,6 +46,9 @@ export const AptSliderData = [
   },
   {
     image: "/images/depto/sala4.jpeg",
+  },
+  {
+    image: "/images/depto/sala5.jpeg",
   },
   {
     image: "/images/depto/piezasec1.jpeg",

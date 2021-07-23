@@ -3,7 +3,9 @@ import React from "react";
 const PontosItem = (props) => {
   return (
     <>
+      {/* Para esta seccion se reutilizaron las clases utilizadas en CadItem */}
       <li className="cards-item">
+        {/* Con path se redirecciona a la localizacion en google maps */}
         <a
           className="cards-item-link"
           href={props.path}

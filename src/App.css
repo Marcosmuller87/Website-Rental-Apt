@@ -17,7 +17,6 @@
 }
 
 .apartamento {
-  /* background-image: url("./images/depto/piezap1.jpeg"); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,7 +25,6 @@
 }
 
 .pontos {
-  /* background-image: url("images/guarapari/praiadomorro.jpg"); */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -35,7 +33,6 @@
 }
 
 .serviços {
-  /* background-image: url("./images/guarapari/praiadomorro.jpg"); */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;

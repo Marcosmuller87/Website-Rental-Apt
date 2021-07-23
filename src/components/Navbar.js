@@ -11,9 +11,11 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="navbar-container">
+          {/* Se redirecciona a Home haciendo click en el logo o en Menu. */}
           <Link to="/" className="navbar-logo" onClick={closeMbMenu}>
             <i className="fas fa-umbrella-beach" />
           </Link>
+          {/* Menu de barras para version mobile. */}
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
           </div>

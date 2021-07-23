@@ -62,6 +62,7 @@ h1 {
 }
 
 .cards-item-wrap::after {
+  /* Para el content se utiliza el atributo data-category que contiene props.label*/
   content: attr(data-category);
   position: absolute;
   bottom: 0;
