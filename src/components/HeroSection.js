@@ -4,7 +4,11 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/videos/beach.mp4" autoPlay loop muted />
+      <img
+        src="../images/beach.jpg"
+        alt="beach-img"
+        className="background-img"
+      />
       <h1>APARTAMENTO DA DONA SOLI</h1>
       <h2>
         O que vocês achariam de se hospedarem na Praia do Morro a só duas

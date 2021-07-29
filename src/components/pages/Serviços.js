@@ -60,7 +60,7 @@ function Serviços() {
           Horario de entrada no Apartamento: &nbsp; Desde às 14:00 hs
         </h3>
         <h3 className="serviços-title">
-          Horario de saída do Apartamento: &nbsp; Até 12:00 hs
+          Horario de saída do Apartamento: &nbsp; Até às 12:00 hs
         </h3>
       </div>
     </div>
